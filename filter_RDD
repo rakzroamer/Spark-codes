@@ -1,0 +1,13 @@
+case class Crimecc (
+ id:String,
+ ptype: String,
+ loc_desc: String)
+ 
+ //to filter out particular positional data in RDD
+ /*
+ (5679925,CRIMINAL DAMAGE,RESIDENCE)
+(5679930,DECEPTIVE PRACTICE,RESIDENCE)
+(5679935,CRIMINAL DAMAGE,RESIDENCE)
+*/
+
+ cData.filter(rec => rec._3 == "RESIDENCE").take(10).foreach(println)
