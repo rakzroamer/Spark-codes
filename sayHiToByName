@@ -1,11 +1,12 @@
 def sayHiToByName(name: => String):String = {
   print(s"hello, $name")
+  print(s"Yet anpther, hello $name")
   name
 }
 
 def addGreet(x:String):String = {
   println("Adding Greeting")
-  s"Dear Mr.$x"
+  s"Respected Dear Mr.$x"
 }
 
 sayHiToByName(addGreet("Scala"))
