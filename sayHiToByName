@@ -12,9 +12,9 @@ sayHiToByName(addGreet("Scala"))
 
 /*
 Adding Greeting
-Hello Respected Dear Scala
+Hello Respected Dear Mr.Scala
 Adding Greeting
-Yet anpther, hello Respected Dear Scala
+Yet anpther, hello Respected Dear Mr.Scala
 Adding Greeting
-res15: String = Respected Dear Scala
+res15: String = Respected Dear Mr.Scala
 */
